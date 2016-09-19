@@ -1,0 +1,26 @@
+name
+- Dake Lu 445781
+- Zhuoer Shen 445164
+
+[login](http://54.191.250.116/~zhuoershen/newswebsite/)
+
+creative portion
+- JS button and redirection (see “reg_btn” on the index page)
+- random salt for pwd hashing. never get a duplicate salt (see register.php) 
+- share to twitter (see index page)
+- **SEARCH** with ranking! ranking is based on **relativities and pertinency**, we DO NOT rank the result by sql. instead we have our own criteria based the story’s author, title and content! For example, if user if searching a number, like “12”, a story with user name include “12”, like “kobe12” will have higher rank than the sport created on “12:00pm”.try to search “kobe” or “12” then look at the ranking of the results!
+- fancy CSS layout! good color combo!
+
+something in progress (have me not give this done by the deadline):
+- up/down votes
+- ranking include votes
+- more advanced search
+- AJAX
+- more security!
+
+
+todo:
+check validator:
+index with login and out
+story with login and out, please check more than one story page
+register

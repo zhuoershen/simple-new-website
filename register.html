@@ -1,0 +1,33 @@
+<?php
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cynic, the unkown page of internet</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="./index.css" />
+</head>
+<body>
+	<!-- header -->
+	<div id="header" role="banner">
+		<div id="header_bottom_left">
+			<a href="./" id="header_img" class="default_header" title>
+				<img src="img/header_icon.png" alt="cynic" id="banner_img" ></img>
+			</a>
+			<!-- how to create a banner img here?-->
+		</div>
+	</div>
+    <hr>
+        <!--using post method to send information to reg.php"-->
+        <form action="register.php" method="post" >
+            <label>Username: <input type="text" name="username" required /></label>
+            <label>Password: <input type="password" name="password" required /></label>
+            <input type="submit" value="Sign Up" />
+        </form>
+    <hr>
+
+</body>
+</html>
