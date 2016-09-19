@@ -1,30 +1,10 @@
-* database server 
+#simple news website
+1. Users can register for accounts and then log into the website.
+2. Registered users can create a story.
+3. Registered users can comment on any story.
+4. Unregistered users can only view stories and comments.
+5. Registered users can edit and delete their stories and comments.
+6. Used MySQL as the database.
 
-	- `54.68.72.28`
-* webpage server
-
-	- `54.191.250.116`
-
-* database `cynic`
-	
-* database tables
-	detail info please refer to phpmydamin	
-	- stories
-		* basic elements you can imagine
-		* upvotes (signed)
-	- users
-		* basic elements you can imagine
-	- comments
-		* basic elements you can imagine
-		* story id and user id are 2 separate foreign keys	
-		* upvotes (signed)
-			
-
-项目约定
-
-* naming
-	- all variable should look like: `black_board`, use underscore to connect to words.
-	- try to avoid capital character in all the namings
-* string
-	- use double quote for variable name and sentence
-	- use single quote for char	
+The database can guarantee the password security by storing salted, one-way-encrypted passwords. 
+Site follows the FIEO philosophy.
